@@ -10,10 +10,5 @@ Author URI: https://github.com/nickgriffiths
 
 function pmpromoml_pmpro_pages_shortcode_levels($content)
 {
-	ob_start();
-	include(plugin_dir_path(__FILE__) . "templates/levels.php");
-	$temp_content = ob_get_contents();
-	ob_end_clean();
-	return $temp_content;
 }
 add_filter("pmpro_pages_shortcode_levels", "pmpromoml_pmpro_pages_shortcode_levels");
