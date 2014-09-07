@@ -8,7 +8,7 @@ Author: Nick Griffiths
 Author URI: https://github.com/nickgriffiths
 */
 
-function pmpromoml_pmpro_pages_shortcode_levels($pmpro_levels)
+function pmpromoml_pmpro_levels_array($pmpro_levels)
 {
 	var_dump($pmpro_levels);
 	/*if(strpos($level->description, '1 Year') !== false) {
