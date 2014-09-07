@@ -14,5 +14,6 @@ function pmpromoml_pmpro_pages_shortcode_levels($pmpro_levels)
 	/*if(strpos($level->description, '1 Year') !== false) {
 		
 	}*/
+	return $pmpro_levels;
 }
 add_filter("pmpro_levels_array", "pmpromoml_pmpro_levels_array");
